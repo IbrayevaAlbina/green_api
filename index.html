@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+   
+    <title>HomeWork1</title>
+  </head>
+  <body>
+<section  class="container">
+    <div class="container_first">
+        <ul class="get_settings">
+            <form action="">
+                <li class="get_style">
+                <p> <input name="idInstance" class="input_style" placeholder="idInstance"></p>
+                <p><input name="ApiTokenInstance" class="input_style" placeholder="ApiTokenInstance"></p>
+                </li>
+            
+            <li class="get_style">
+                <p><button class="get_button" onclick="out()" type="submit" >getSettings</button></p>
+            <p> <button class="get_button" data-modal-open type="submit" >getStateInstance</button></p>
+            </li>
+        </form>
+
+            <form action="#" id="form"  class="style" class="form_bady">
+                <li class="get_style">
+                    <p><input name="textfield" type="text" class="input_style" value="+77713273439"></p>
+                <input id="enter_message" type="text" name="entermessage" placeholder="Enter message" class="input_text"> 
+                <button class="get_button" data-modal-open type="submit" >sendMessage</button>
+              </form>
+                </li>
+                <form action="">
+
+                <li class="get_style">
+                    <p><input name="textfield" type="text" class="input_style" value="+77713273439"></p>
+                    <p><input type="search" name="input_url" list="url-list" class="input_url"></p>
+                    <button class="get_button" data-modal-open type="submit" >sendFileByUrl</button>
+                </li>
+                </form>
+        </ul>
+
+</div>
+
+<div  class="container_first" id="out">
+    <ul class="message">
+     <li class="get_style">
+         <h1 class="text_out"> Ответ:</h1>
+
+      
+         
+       <p id="p" > <input type=”text” class="message_out" > </p>
+       
+     </li>
+    </ul>
+</div>
+
+<script src="./js/main.js"></script>
+
+</section>
+
+    </body>
+    
